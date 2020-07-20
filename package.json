@@ -1,0 +1,22 @@
+{
+  "name": "literatura-preta",
+  "version": "1.0.0",
+  "description": "This project aims to increase the visibility of black Brazilian literature, whether written by black authors or with black main characters.",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thaiane/literatura-preta.git"
+  },
+  "author": "Thaiane Braga",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Thaiane/literatura-preta/issues"
+  },
+  "homepage": "https://github.com/Thaiane/literatura-preta#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
