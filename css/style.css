@@ -1,0 +1,23 @@
+.header {
+  background: orange;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: large;
+}
+
+.menu-nav{
+  display: flex;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
