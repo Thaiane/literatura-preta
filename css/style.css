@@ -1,6 +1,5 @@
 .header {
   background: orange;
-  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,6 +11,27 @@
 
 .menu-nav{
   display: flex;
+}
+
+.header a {
+  color: white;
+  margin: 10px;
+}
+
+.header a:hover {
+  color: rgb(155, 101, 0);
+  margin: 10px;
+}
+
+.footer {
+  display: flex;
+  background: orange;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  color: white;
 }
 
 a {
