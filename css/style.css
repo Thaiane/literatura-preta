@@ -1,12 +1,12 @@
 .header {
-  background: orange;
+  background: #984b43;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .title {
-  font-size: large;
+  font-size: 2em;
 }
 
 .menu-nav{
@@ -19,15 +19,13 @@
 }
 
 .header a:hover {
-  color: rgb(155, 101, 0);
+  color: #795a56;
   margin: 10px;
 }
 
 .footer {
-  display: flex;
-  background: orange;
-  align-items: center;
-  justify-content: center;
+  background: #984b43;
+  text-align: center;
 }
 
 .footer p {
