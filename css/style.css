@@ -1,10 +1,7 @@
 body, h1, h2, p, ul, li, a {
   margin: 0px;
   padding: 0px;
-}
-
-body {
-  font-family: 'Fredericka the Great', cursive, "Nunito", Helvetica, Arial, sans-serif;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
   color: #222222;
 }
 
@@ -32,6 +29,10 @@ body {
   color: azure;
   margin: 10px;
   padding: 5px;
+}
+
+.highlighted-text {
+  font-family: 'Fredericka the Great', cursive;
 }
 
 .literatura-preta {
