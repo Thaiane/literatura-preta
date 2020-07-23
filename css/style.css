@@ -1,5 +1,14 @@
+body, h1, h2, p, ul, li, a {
+  margin: 0px;
+  padding: 0px;
+}
+
+.body-site {
+  background: #FFF5F2;
+}
+
 .header {
-  background: #984b43;
+  background: #87332A;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,33 +18,27 @@
   font-size: 5rem;
 }
 
-@media only screen and (min-width: 800px) {
-  .title {
-    font-size: 1em;
-  }
-}
-
 .menu-nav{
   display: flex;
 }
 
 .header a {
-  color: white;
+  color: azure;
   margin: 10px;
 }
 
 .header a:hover {
-  color: #795a56;
+  color: #F3EED9;
   margin: 10px;
 }
 
 .footer {
-  background: #984b43;
+  background: #87332A;
   text-align: center;
 }
 
 .footer p {
-  color: white;
+  color: azure;
 }
 
 a {
