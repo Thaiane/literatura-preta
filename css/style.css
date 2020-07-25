@@ -6,26 +6,28 @@ body, h1, h2, p, ul, li, a {
 }
 
 .body-site {
-  background: #FFF5F2;
+  background: whitesmoke;
 }
 
-.header {
+.menu-bg {
   background: #87332A;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
+}
+
+.menu {
+  max-width: 960px;
 }
 
 .title {
   font-size: 3rem;
+  padding-top: 10px;
+  margin-bottom: 3px;
 }
 
 .menu-nav{
   display: flex;
 }
 
-.header a {
+.menu a {
   color: azure;
   margin: 10px;
   padding: 5px;
@@ -39,7 +41,7 @@ body, h1, h2, p, ul, li, a {
   font-family: 'Monoton', cursive;
 }
 
-.header a:hover {
+.menu a:hover {
   color: #F3EED9;
   margin: 10px;
 }
